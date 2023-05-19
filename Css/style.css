@@ -1,33 +1,147 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     list-style: none;
 }
-.nav{
+
+.nav {
     width: 100%;
     height: 70px;
     background-color: rgb(35, 35, 130);
     padding: 0px 50px;
 }
-.navbar{
+
+.navbar {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
-    color: white;
-    font-size: 25px;
+
+.logo img {
+    width: 80px;
+    height: 80px;
 }
-.nav-ul{
+
+.nav-ul {
     display: flex;
     gap: 25px;
 }
-.nav-link{
+
+.nav-link {
     color: white;
     font-size: 17px;
     text-decoration: none;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+}
+
+.home {
+    width: 100%;
+    min-height: 89vh;
+    /* height: 588px; */
+    background-image: url(/img/header-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-contenner {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    padding-left: 1em;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.header-link a:hover {
+    border-bottom: 2px solid white;
+}
+
+.home-text {
+    color: white;
+}
+
+.home-text h1 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+    padding-top: 1em;
+}
+
+.home-text p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-weight: 300;
+}
+
+.btn-1 {
+    width: 147px;
+    height: 46px;
+    border-radius: 25px 25px;
+    background-color: #00ffad;
+    color: #192440;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.btn-1:hover {
+    cursor: pointer;
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 774px) {
+
+    .btn {
+        display: flex;
+        justify-content: center;
+    }
+    .home-text {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .home-text h1 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+        padding-top: 0.5em;
+    }
+
+
 }

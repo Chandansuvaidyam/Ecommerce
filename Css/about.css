@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    list-style: none;
+}
+
+.nav {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(35, 35, 130);
+    padding: 0px 50px;
+}
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.nav-ul {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.contaner {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 4em 0em
+}
+
+.under-contaner {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.heading-1 h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding-top: 2em;
+}
+
+.under-card {
+    width: 26vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-text h2 {
+    font-weight: 500;
+}
+
+.contaner-2 {
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(168deg, #ffffff 55%, #00FFAD 0);
+    display: flex;
+
+}
+
+.under-contaner-2 {
+    width: 85%;
+    display: flex;
+    margin: auto;
+
+}
+
+.under-contaner-2-1 {
+    width: 50%;
+}
+
+.under-contaner-2-1 h1 {
+    font-size: 3rem;
+}
+
+.under-contaner-2-1 p {
+    line-height: 1.5;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+}
+
+.btn {
+    width: 147px;
+    height: 46px;
+    border: 2px solid #192440;
+    border-radius: 25px 25px;
+    background-color: #192440;
+    color: #ffffff;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 2px solid #192440;
+    color: #192440;
+
+}
+
+.under-contaner-2-2 {
+    width: 50%;
+    margin: auto;
+    padding-left: 3em;
+}
+
+.under-contaner-2-2 img {
+    width: 85%;
+}
+
+.contaner-3 {
+    width: 100%;
+    height: 400px;
+    background-color: #00FFAD;
+    display: flex;
+}
+
+.under-contaner-3 {
+    width: 85%;
+    display: flex;
+    margin: auto;
+}
+
+.under-contaner-3-1 {
+    width: 50%;
+    margin: auto;
+
+}
+
+.under-contaner-3-1 img {
+    width: 85%;
+}
+
+.under-contaner-3-2 {
+    width: 50%;
+    padding-right: 3em;
+}
+
+.under-contaner-3-2 h1 {
+    font-size: 3rem;
+}
+
+.under-contaner-3-2 p {
+    line-height: 1.5;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-ul {
+        display: none;
+    }
+
+    .under-contaner {
+        width: 100%;
+    }
+
+    .under-contaner-2 {
+        width: 90%;
+    }
+
+    .under-contaner-3 {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 774px) {
+    .contaner{
+        padding-left: 4em;
+        padding-right: 4em;
+        margin: auto;
+    }
+    .cards {
+        flex-direction: column;
+    }
+
+    .under-card {
+        width: 100%;
+    }
+
+    .contaner-2 {
+        height: auto;
+        padding-top: 7em;
+        padding-left: 4em;
+        padding-right: 4em;
+        margin: auto;
+    }
+
+    .under-contaner-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .under-contaner-2-1{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .under-contaner-2-2 {
+        width: 100%;
+    }
+
+    .contaner-3 {
+        height: auto;
+        padding-top: 7em;
+        padding-left: 4em;
+        padding-right: 4em;
+        margin: auto;
+    }
+
+    .under-contaner-3 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .under-contaner-3-1 {
+        width: 100%;
+    }
+    .under-contaner-3-2{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+}
