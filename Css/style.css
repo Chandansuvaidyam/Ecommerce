@@ -36,6 +36,9 @@
     font-size: 17px;
     text-decoration: none;
 }
+.nav-link:hover{
+    color: rgb(190, 187, 187);
+}
 
 .main {
     width: 100%;
