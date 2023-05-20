@@ -245,9 +245,9 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .nav-ul {
+    /* .nav-ul {
         display: none;
-    }
+    } */
 }
 
 @media screen and (max-width: 774px) {
