@@ -41,7 +41,7 @@
 .container-img {
     width: 100%;
     height: 500px;
-    background-image: url(/Courses/img/contact-bk.jpg);
+    background-image: url(../Courses/img/contact-bk.jpg);
     display: flex;
 }
 .container1 {
