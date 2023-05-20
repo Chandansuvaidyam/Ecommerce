@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+.nav {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(35, 35, 130);
+    padding: 0px 50px;
+}
+.navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: white;
+    font-size: 25px;
+}
+.nav-ul {
+    display: flex;
+    gap: 25px;
+}
+.nav-link {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+.main{
+    width: 100%;
+}
+.container-img {
+    width: 100%;
+    height: 500px;
+    background-image: url(/Courses/img/contact-bk.jpg);
+    display: flex;
+}
+.container1 {
+    width: 50%;
+    height: 400px;
+    color: white;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+.container1 h1 {
+    font-size: 40px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.container1 p {
+    line-height: 25px;
+    width: 390px;
+}
+.container2 {
+    width: 50%;
+    color: white;
+    padding-top: 80px;
+}
+.container1 ul{
+    padding-top: 25px;
+}
+ul li{
+    line-height: 33px;
+}
+.inp1 {
+    display: flex;
+    padding-top: 4px;
+    line-height: 35px;
+}
+.a1 {
+    padding-right: 25px;
+    color: #00FFAD;
+    margin: 0px 0px 20px;
+}
+
+.a2 {
+    color: #00FFAD;
+}
+
+.a3 {
+    color: #00FFAD;
+}
+.inp2 {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+}
+label{
+    margin-bottom: 10px;
+}
+#textareafix {
+    resize: vertical;
+    width: 531px;
+}
+input {
+    background: transparent;
+    border: 1px solid #00FFAD;
+    padding: 10px 45px;
+    color: #00FFAD;
+}
+textarea {
+    background: transparent;
+    border: 1px solid #00FFAD; 
+}
+.btn4{
+    border-radius: 20px;
+    background-color: #00FFAD;
+    padding: 15px 236px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn4:hover{
+    color: white;
+
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color:#192440 ;
+    color: white;
+    font-size: 15px;
+    padding-top: 40px;
+    padding-left: 80px;
+}
