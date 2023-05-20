@@ -172,7 +172,7 @@
     width: 100%;
     min-height: 89vh;
     /* height: 588px; */
-    background-image: url(/img/header-img.jpg);
+    background-image: url('../img/header-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
