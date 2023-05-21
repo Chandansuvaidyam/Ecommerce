@@ -43,12 +43,12 @@
     height: 500px;
     background-image: url(/Courses/img/contact-bk.jpg);
     display: flex;
+    justify-content: center;
+    gap: 150px;
 }
 .container1 {
-    width: 50%;
     height: 400px;
     color: white;
-    padding-left: 80px;
     padding-top: 80px;
 }
 .container1 h1 {
@@ -62,7 +62,6 @@
     width: 390px;
 }
 .container2 {
-    width: 50%;
     color: white;
     padding-top: 80px;
 }
@@ -77,6 +76,10 @@ ul li{
     padding-top: 4px;
     line-height: 35px;
 }
+input{
+    width: 200px;
+}
+
 .a1 {
     padding-right: 25px;
     color: #00FFAD;
@@ -93,14 +96,12 @@ ul li{
 .inp2 {
     display: flex;
     flex-direction: column;
-    width: 470px;
 }
 label{
     margin-bottom: 10px;
 }
 #textareafix {
     resize: vertical;
-    width: 531px;
 }
 input {
     background: transparent;
@@ -115,7 +116,8 @@ textarea {
 .btn4{
     border-radius: 20px;
     background-color: #00FFAD;
-    padding: 15px 236px;
+    padding: 15px;
+    width: 430px;
     margin-top: 30px;
     font-size: 16px;
     font-weight: bold;
@@ -133,3 +135,84 @@ textarea {
     padding-top: 40px;
     padding-left: 80px;
 }
+ /* @media(min-width:768px) and (max-width:115s0px){
+    .container1{
+        padding-left: 16px;
+    }
+    .container2{
+    margin-right: 80px; 
+    }
+} */
+
+@media(max-width:990px){
+    input{
+        width: 130px;
+    }
+    .container-img {
+        gap: 20px;
+        justify-content: start;
+        padding-left: 20px;
+    }
+    textarea {
+        background: transparent;
+        border: 1px solid #00FFAD; 
+        width: 290px;
+    }
+    .btn4{
+        
+        padding: 10px;
+        width: 290px;
+    }
+}
+
+    
+    @media(max-width:768px){
+        input{
+            padding: 10px 30px;
+        }
+        .nav-ul {
+            display: none;
+        }
+        #textareafix{
+            width: 100%;
+        }
+        .btn4{
+            width: 100%;
+        }
+        input{
+            width: 100%;
+        }
+
+        .container-img{
+            flex-direction: column;
+            height: auto;
+        }
+
+        .container1 {
+            width: 100%;
+            padding: 0px 10px;
+        }
+        .container1 h1 {
+            font-size: 40px;
+            padding-top: 5px;
+            padding-bottom: 25px;
+        }
+        
+        .container1 p {
+            line-height: 25px;
+            width: 390px;
+        }
+
+        .container2{
+            padding: 30px 10px;
+        }
+        }
+         
+        @media(max-width:430px){
+            .container1 p {
+                line-height: 22px;
+                width: 100%;
+            }
+        }
+    
+     

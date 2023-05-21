@@ -48,12 +48,13 @@
 }
 .main1 {
     display: flex;
-}
-
-.main {
-    display: flex;
     margin-top: 80px;
 }
+
+/* .main {
+    display: flex;
+    margin-top: 80px;
+} */
 
 .side1 {
     width: 100%;
@@ -260,6 +261,13 @@
     .home-text {
         text-align: center;
     }
+    .main1{
+        display: block;
+        
+    }
+    .side2{
+        width: auto;
+    }
 
 }
 
@@ -272,3 +280,4 @@
 
 
 }
+ 
