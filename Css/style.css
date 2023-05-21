@@ -173,7 +173,7 @@
     width: 100%;
     min-height: 89vh;
     /* height: 588px; */
-    background-image: url(/img/header-img.jpg);
+    background-image: url('../img/header-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -246,12 +246,12 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .nav-ul {
+    /* .nav-ul {
         display: none;
-    }
+    } */
 }
 
-@media screen and (max-width: 774px) {
+@media screen and (max-width: 900px) {
 
     .btn {
         display: flex;
