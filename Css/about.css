@@ -179,9 +179,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .nav-ul {
-        display: none;
-    }
 
     .under-contaner {
         width: 100%;
@@ -255,4 +252,23 @@
         justify-content: center;
     }
 
+}
+
+@media screen and (max-width: 500px){
+    .navbar {
+        padding: 20px 0px;
+        display: block;
+        font-size: 30px;
+    }
+    .nav {
+        height: auto;
+        padding: 0px 0px 0px 20px;
+    }
+
+    .nav-ul {
+        gap: 15px;
+    }
+    .logo img {
+       display: none;
+    }
 }

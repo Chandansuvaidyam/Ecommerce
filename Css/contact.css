@@ -135,15 +135,7 @@ textarea {
     padding-top: 40px;
     padding-left: 80px;
 }
- /* @media(min-width:768px) and (max-width:115s0px){
-    .container1{
-        padding-left: 16px;
-    }
-    .container2{
-    margin-right: 80px; 
-    }
-} */
-
+ 
 @media(max-width:990px){
     input{
         width: 130px;
@@ -170,9 +162,7 @@ textarea {
         input{
             padding: 10px 30px;
         }
-        .nav-ul {
-            display: none;
-        }
+       
         #textareafix{
             width: 100%;
         }
@@ -206,6 +196,24 @@ textarea {
         .container2{
             padding: 30px 10px;
         }
+        }
+        @media screen and (max-width: 500px){
+            .navbar {
+                padding: 20px 0px;
+                display: block;
+                font-size: 30px;
+            }
+            .nav {
+                height: auto;
+                padding: 0px 0px 0px 20px;
+            }
+        
+            .nav-ul {
+                gap: 15px;
+            }
+            .logo img {
+               display: none;
+            }
         }
          
         @media(max-width:430px){
