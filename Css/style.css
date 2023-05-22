@@ -254,6 +254,13 @@
     .home-text {
         text-align: center;
     }
+    .main1{
+        display: block;
+        
+    }
+    .side2{
+        width: auto;
+    }
 
 }
 
@@ -266,3 +273,4 @@
 
 
 }
+ 
