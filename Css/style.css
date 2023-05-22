@@ -48,6 +48,7 @@
 }
 .main1 {
     display: flex;
+    margin-top: 80px;
 }
 .side1 {
     width: 100%;
